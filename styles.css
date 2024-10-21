@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    background-color: #FFA500; /* Laranja */
+    background-color: #FFA500; 
     color: #fff;
     padding: 1rem;
     text-align: center;
@@ -39,7 +39,7 @@ form {
 label {
     display: block;
     margin-top: 1rem;
-    color: #333; /* Cor mais escura para contraste */
+    color: #333; 
 }
 
 input, button {
@@ -51,14 +51,14 @@ input, button {
 }
 
 button {
-    background-color: #FFA500; /* Laranja */
+    background-color: #FFA500;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #cc8400; /* Laranja mais escuro */
+    background-color: #cc8400;
 }
 
 #lista-produtos {
@@ -70,7 +70,7 @@ button:hover {
 }
 
 #produtos-lista > div {
-    background-color: #D3D3D3; /* Cinza claro */
+    background-color: #D3D3D3;
     padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 8px;
@@ -82,10 +82,10 @@ button:hover {
 .produto-info {
     flex: 1;
     padding: 0 10px;
-    color: #333; /* Cor mais escura para contraste */
+    color: #333; 
 }
 
 .produto-info:nth-child(even) {
-    background-color: #8B4513; /* Tom de madeira */
+    background-color: #8B4513;
     color: #fff;
 }
