@@ -48,7 +48,7 @@ document.getElementById('formProduto').addEventListener('submit', function(event
         }).showToast();
 
         document.getElementById('formProduto').reset();
-        fetchProdutos(); // Atualizar a lista de produtos após a inserção
+        fetchProdutos(); // Atualizar a lista de produtos após o registro
         mostrarSecao('lista-produtos'); // Voltar para a lista de produtos após registrar
     })
     .catch(error => {
@@ -88,6 +88,6 @@ function fetchProdutos() {
 // Chamar a função para buscar e exibir os produtos ao carregar a página
 window.onload = function() {
     fetchProdutos();
-    mostrarSecao('produtos'); // Mostrar a seção do formulário inicialmente
+    mostrarSecao('produtos'); // Mostrar formulário 
 };
 
